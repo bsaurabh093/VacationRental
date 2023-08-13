@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listing</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="https://www.go4websites.com/framework/css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item listingBtn">
+                    <a class="nav-link ">List your Property</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <section class="banner">
+        <div class="title ">
+            <h2><span class="d-block">find your vacation </span><span id="typed"></span></h2>
+        </div>
+        <img src="img/banner.jpg" loading="eager" alt="">
+        <div class="searchBar wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+            <h3>Find Your Vacation Property</h3>
+            <div class="searchForm">
+                <div class="input-box">
+                    <label class="input-label">Search Your ID</label>
+                    <input type="text" class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                    <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <div class="input-box active-grey">
+                    <label class="input-label">Arrivale Date</label>
+                    <input type="date" class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div class="input-box active-grey">
+                    <label class="input-label">Departure Date</label>
+                    <input type="date" class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div class="input-box">
+                    <label class="input-label">Guest</label>
+                    <input type="text" class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <button class="myBtn">Search</button>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="featuredProperties">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Featured Properties</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme featured wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                        <div class="propertyItem ">
+                            <div class="featuredTag">Featured</div>
+                            <div class="featuredImg">
+                                <img src="img/livingRoom.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <div class="propName"> Beautiful RH Furnishing</div>
+                                <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                                <div class="amenities mt-30">
+                                    <ul>
+                                        <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                        <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                        <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                        <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                    </ul>
+                                </div>
+                                <div class="primaryBtn"><a href="#">View Property</a></div>
+                            </div>
+                        </div>
+                        <div class="propertyItem ">
+                            <div class="featuredTag">Featured</div>
+                            <div class="featuredImg">
+                                <img src="img/inner-living-room-1.jpg"  loading="lazy" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <div class="propName"> Beautiful RH Furnishing</div>
+                                <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                                <div class="amenities mt-30">
+                                    <ul>
+                                        <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                        <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                        <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                        <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                    </ul>
+                                </div>
+                                <div class="primaryBtn"><a href="#">View Property</a></div>
+                            </div>
+                        </div>
+                
+                        <div class="propertyItem ">
+                            <div class="featuredTag">Featured</div>
+                            <div class="featuredImg">
+                                <img src="img/inner-living-room-2.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <div class="propName"> Beautiful RH Furnishing</div>
+                                <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                                <div class="amenities mt-30">
+                                    <ul>
+                                        <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                        <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                        <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                        <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                    </ul>
+                                </div>
+                                <div class="primaryBtn"><a href="#">View Property</a></div>
+                            </div>
+                        </div>
+                
+                        <div class="propertyItem">
+                            <div class="featuredTag">Featured</div>
+                            <div class="featuredImg">
+                                <img src="img/livingRoom.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <div class="propName"> Beautiful RH Furnishing</div>
+                                <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                                <div class="amenities mt-30">
+                                    <ul>
+                                        <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                        <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                        <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                        <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                    </ul>
+                                </div>
+                                <div class="primaryBtn"><a href="#">View Property</a></div>
+                            </div>
+                        </div>
+                
+                        <div class="propertyItem">
+                            <div class="featuredTag">Featured</div>
+                            <div class="featuredImg">
+                                <img src="img/inner-living-room-1.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <div class="propName"> Beautiful RH Furnishing</div>
+                                <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                                <div class="amenities mt-30">
+                                    <ul>
+                                        <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                        <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                        <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                        <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                    </ul>
+                                </div>
+                                <div class="primaryBtn"><a href="#">View Property</a></div>
+                            </div>
+                        </div>
+                
+                        <div class="propertyItem">
+                            <div class="featuredTag">Featured</div>
+                            <div class="featuredImg">
+                                <img src="img/prop.jpeg" loading="lazy" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <div class="propName"> Beautiful RH Furnishing</div>
+                                <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                                <div class="amenities mt-30">
+                                    <ul>
+                                        <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                        <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                        <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                        <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                    </ul>
+                                </div>
+                                <div class="primaryBtn"><a href="#">View Property</a></div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="properties">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/los-angeles-02.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/los-angeles-02.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/los-angeles-02.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/los-angeles-02.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/new-york-04.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/new-york-04.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/new-york-04.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="propertyItem wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                        
+                        <div class="featuredImg">
+                            <img src="img/new-york-04.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="featuredContent">
+                            <div class="propName"> Beautiful RH Furnishing</div>
+                            <div class="propLocation"><i class="fa-solid fa-location-dot"></i> Sand Section, Manhattan</div>
+                            <div class="amenities mt-30">
+                                <ul>
+                                    <li><i class="fa-solid fa-bed"></i><span> 3 Bedrooms</span></li>
+                        
+                                    <li><i class="fa-solid fa-bath"></i><span> 2 Bathrooms<span></span></li>
+                                    <li><i class="fa-solid fa-users"></i><span> 4 Guests<span></span></li>
+                                    <li><i class="fa-solid fa-house-chimney"></i><span> House<span></span></li>
+                                </ul>
+                            </div>
+                            <div class="primaryBtn"><a href="#">View Property</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="moreVacationIdeas">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>More Vacation Ideas</h2>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="vacationIdeas">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="vacationIdeas">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="vacationIdeas">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="vacationIdeas">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="vacationIdeas">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="vacationIdeas">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FLorida</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popularDestination">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Popular Destination</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <a href="#">
+                        <div class="destinationItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="img/moreBg.jpg" loading="lazy" alt="">
+                            <div class="destinationCaption">Florida</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#">
+                        <div class="destinationItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="img/california.jpg" loading="lazy" alt="">
+                            <div class="destinationCaption">California</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="destinationItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="img/france.jpg" loading="lazy" alt="">
+                            <div class="destinationCaption">France</div>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="destinationItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="img/hawaii.jpg" loading="lazy" alt="">
+                            <div class="destinationCaption">Hawaii</div>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="destinationItem wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="img/Portugal.webp" loading="lazy" alt="">
+                            <div class="destinationCaption">Portugal</div>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#">
+                        <div class="destinationItem wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                            <img src="img/spain.webp" loading="lazy" alt="">
+                            <div class="destinationCaption">Spain</div>
+                        </div>
+                        
+                    </a>    
+                </div>
+                <div class="col-md-6">
+                    <a href="#">
+                        <div class="destinationItem wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                            <img src="img/texas.webp" loading="lazy" alt="">
+                            <div class="destinationCaption">Texas</div>
+                        </div>
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactHome">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 offset-md-6">
+                    <div class="contactHomeForm">
+                        <h2>Contact Us</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae cum ratione beatae earum necessitatibus? Nemo corporis vero eius quibusdam sit facere tenetur, animi quo minima? Voluptatum, accusamus numquam laudantium sapiente error rem, dolorem nobis eveniet quaerat ratione dolores natus repudiandae minima expedita odit iure consequuntur esse! Nisi blanditiis numquam mollitia aliquam similique alias dicta ipsam dolor architecto, corrupti culpa impedit officia assumenda dolores minus ratione nihil incidunt sunt corporis, reiciendis expedita sapiente! Nostrum placeat doloribus voluptatibus a similique animi voluptas eaque aperiam, quae iste mollitia exercitationem fugiat consectetur vitae? Consequatur illum quibusdam officiis soluta officia quidem repellat, voluptas voluptates quia ipsam consequuntur ipsum. Inventore, nihil, consequatur deserunt aspernatur aliquam quia, aperiam odio iusto cupiditate minima sunt ullam quidem modi soluta. Reiciendis aut soluta atque, quisquam ea ullam pariatur quos mollitia recusandae, unde optio nesciunt doloremque quia enim, necessitatibus numquam earum et fuga consequatur eveniet quod quis at. Nesciunt hic dicta enim sunt sint ex, quis pariatur saepe quia laudantium praesentium perspiciatis distinctio. Cum voluptas illum deleniti explicabo delectus ab est similique earum officiis fugiat iste repudiandae asperiores, magni, recusandae voluptates in dignissimos! Minima rerum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="vacationRentals">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="moreVacations">
+                        <div class="moreVacationsHead">
+                            <a href="#"><i class="fa-solid fa-location-crosshairs"></i> Barbados Vacation Rentals</a>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="moreVacations">
+                        <div class="moreVacationsHead">
+                            <a href="#"><i class="fa-solid fa-location-crosshairs"></i> Barbados Vacation Rentals</a>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="moreVacations">
+                        <div class="moreVacationsHead">
+                            <a href="#"><i class="fa-solid fa-location-crosshairs"></i> Barbados Vacation Rentals</a>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="moreVacations">
+                        <div class="moreVacationsHead">
+                            <a href="#"><i class="fa-solid fa-location-crosshairs"></i> Barbados Vacation Rentals</a>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Vacation Rentals in California</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="company footerColoumn">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Home</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> About</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Contact</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Blogs   </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="company footerColoumn">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Home</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> About</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Contact</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Blogs   </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="subscriber footerColoumn">
+                        <h3>Subscribe to our Newsletter </h3>
+                        <div class="subscriberBox">
+                            <input type="text" placeholder="Enter Your Email">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <a href="#">Submit</a>
+                        </div>
+                        <div class="follow">
+                            <h4>Follow us:</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Copyright ©2023 abc.com | All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
+    <script src="https://www.go4websites.com/framework/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/input.js"></script>
+   
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:30,
+        nav:true,
+        navText : ['<i class="fa-regular fa-square-caret-left"></i>','<i class="fa-regular fa-square-caret-right"></i>'],
+        autoplay: false,
+        responsive:{
+        0:{
+        items:1
+        },
+        600:{
+        items:2
+        },
+        1000:{
+        items:3
+        }
+        }
+        })
+        
+        </script>
+        
+        <script>
+            new Typed('#typed',{
+                strings : ['Homes','Villas', 'Appartments',],
+                typeSpeed : 100,
+                delaySpeed : 120,
+                loop : true
+            });
+        </script>        
+        
+        <script>
+            $(window).scroll(function(){
+        
+              if ($(window).scrollTop() >=45) {
+        
+                 $('.navbar').addClass('fixed-header');
+        
+              }
+        
+              else {
+        
+                 $('.navbar').removeClass('fixed-header');
+        
+              }
+        
+            });
+        </script>
+  </body>
+</html>
