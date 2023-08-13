@@ -1,0 +1,103 @@
+@media (max-width: 767px) {
+  .container-fluid {
+    padding: 25px;
+  }
+  section {
+    padding: 0;
+  }
+  .bg-body-tertiary {
+    background-color: #ffffff !important;
+    box-shadow: 0px 0px 1px 2px #00000017;
+  }
+  .nav-link {
+    color: rgb(0 0 0);
+  }
+  header .container-fluid {
+    padding: 0 1.5rem;
+  }
+  .banner .title {
+    top: 80px;
+    right: 25px;
+    left: 25px;
+    transform: inherit;
+  }
+  .banner .title h2 {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  .searchBar {
+    top: 200px;
+    right: 25px;
+    left: 25px;
+    width: 85%;
+    padding: 35px;
+  }
+  .searchBar h3 {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+  }
+  .searchBar h3:before {
+    height: calc(100% - 4px);
+    top: 4px;
+  }
+  .heading h2 {
+    font-size: 1.2em;
+  }
+  .heading h2:before {
+    content: "";
+    width: 80px;
+  }
+  .featuredImg img {
+    width: 100%;
+    height: 150px;
+  }
+  .vacationIdeas ul li a {
+    color: #fff;
+    font-size: 1rem;
+  }
+  .destinationItem img {
+    width: 100%;
+    height: 180px;
+  }
+  .amenities ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .amenities ul li {
+    flex: 0 0 48%;
+  }
+  .amenities ul li span {
+    display: inline-block;
+    padding-left: 8px;
+  }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel button.owl-dot {
+    font-size: 1.2rem;
+  }
+  .owl-nav {
+    top: -65px;
+  }
+  .footerColoumn {
+    margin-top: 20px;
+  }
+  .subscriberBox {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .subscriberBox .icon {
+    top: 25px;
+  }
+  .subscriberBox a {
+    padding: 10px 25px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .footerBottom .container-fluid {
+    padding: 10px 25px;
+}
+}
