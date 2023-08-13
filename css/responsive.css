@@ -15,6 +15,10 @@
   header .container-fluid {
     padding: 0 1.5rem;
   }
+  .banner img {
+    width: 100%;
+    height: 720px;
+  }
   .banner .title {
     top: 80px;
     right: 25px;
@@ -99,5 +103,93 @@
   }
   .footerBottom .container-fluid {
     padding: 10px 25px;
+  }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid {
+    padding: 25px;
+  }
+  section {
+    padding: 0;
+  }
+  .bg-body-tertiary {
+    background-color: #ffffff !important;
+    box-shadow: 0px 0px 1px 2px #00000017;
+  }
+  .nav-link {
+    color: rgb(0 0 0);
+  }
+  header .container-fluid {
+    padding: 0 1.5rem;
+  }
+  .banner img {
+    width: 100%;
+    height: 800px;
+  }
+  .banner .title {
+    top: 80px;
+    right: 25px;
+    left: 25px;
+    transform: inherit;
+  }
+  .banner .title h2 {
+    font-size: 3.5rem;
+    line-height: 70px;
+  }
+  .searchBar {
+    top: 270px;
+    right: auto;
+    left: 30px;
+    width: 92%;
+    padding: 35px;
+  }
+  .searchBar h3 {
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+  }
+  .searchBar h3:before {
+    height: calc(100% - 4px);
+    top: 4px;
+  }
+  .destinationItem img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+  .container-fluid {
+    padding: 30px;
+  }
+  section {
+    padding: 0;
+  }
+  .banner img {
+    width: 100%;
+    height: 700px;
+  }
+  .banner .title {
+    top: 40%;
+    right: 50%;
+    left: 25px;
+  }
+  .banner .title h2 {
+    font-size: 4rem;
+    line-height: 80px;
+  }
+  .searchBar {
+    position: absolute;
+    z-index: 0;
+    top: 15%;
+    right: 25px;
+    width: 450px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .destinationItem img {
+    width: 100%;
+    height: 220px;
+  }
 }
